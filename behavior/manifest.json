@@ -1,0 +1,37 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Custom server sidebar",
+        "name": "Custom server sidebar",
+        "uuid": "8ac7b3f5-2658-4070-9445-cd72c9e22122",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            41
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "2c05d0e6-9435-4b86-8943-35a6090f1071",
+            "entry": "scripts/library/Minecraft.js",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.7.0-beta"
+        }
+    ]
+}
