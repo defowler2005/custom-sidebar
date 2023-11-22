@@ -1,0 +1,129 @@
+{
+    "namespace": "hud",
+    "hud_title_text": {
+        "type": "stack_panel",
+        "orientation": "vertical",
+        "offset": [
+            -10,
+            0
+        ],
+        "anchor_from": "middle_right",
+        "anchor_to": "middle_right",
+        "layer": 1,
+        //"alpha": "@hud.anim_title_text_alpha_in",
+        //"propagate_alpha": true,
+        "controls": [
+            {
+                "title_frame": {
+                    "type": "panel",
+                    "size": [
+                        "100%",
+                        "100%cm"
+                    ],
+                    "controls": [
+                        {
+                            "title": {
+                                "type": "image",
+                                "size": [
+                                    145,
+                                    97
+                                ],
+                                "texture": "textures/ui/hud_tip_text_background",
+                                "anchor_from": "right_middle",
+                                "anchor_to": "right_middle",
+                                "layer": 31,
+                                "alpha": 0.5,
+                                "controls": [
+                                    {
+                                        "the_titleImagePart": {
+                                            "type": "image",
+                                            "size": [
+                                                64,
+                                                64
+                                            ],
+                                            "offset": [
+                                                0,
+                                                -96
+                                            ],
+                                            "texture": "pack_icon"
+                                        }
+                                    },
+                                    {
+                                        "the_titleBackgroundImagePart": {
+                                            "type": "image",
+                                            "size": [
+                                                "100%",
+                                                11
+                                            ],
+                                            "offset": [
+                                                0,
+                                                -55
+                                            ],
+                                            "texture": "textures/ui/hud_tip_text_background",
+                                            "alpha": 0.5,
+                                            "controls": [
+                                                {
+                                                    "the_actualTextTitle": {
+                                                        "type": "label",
+                                                        "text": "hud.sidebar.title",
+                                                        "anchor_from": "center",
+                                                        "anchor_to": "center",
+                                                        "layer": 32,
+                                                        "font_size": "medium",
+                                                        "offset": [
+                                                            0,
+                                                            0
+                                                        ]
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "the_actual_title": {
+                                            "type": "label",
+                                            "anchor_from": "top_left",
+                                            "anchor_to": "top_left",
+                                            "color": "$title_command_text_color",
+                                            "text": "#text",
+                                            "layer": 31,
+                                            "size": [
+                                                "100%",
+                                                "100%"
+                                            ],
+                                            "localize": false,
+                                            //"font_size": "extra_large",
+                                            "variables": [
+                                                {
+                                                    "requires": "(not $title_shadow)",
+                                                    "$show_shadow": false
+                                                },
+                                                {
+                                                    "requires": "$title_shadow",
+                                                    "$show_shadow": true
+                                                }
+                                            ],
+                                            //"shadow": "$show_shadow",
+                                            "text_alignment": "left",
+                                            "offset": [
+                                                2,
+                                                1
+                                            ],
+                                            "bindings": [
+                                                {
+                                                    "binding_name": "#hud_title_text_string",
+                                                    "binding_name_override": "#text",
+                                                    "binding_type": "global"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
