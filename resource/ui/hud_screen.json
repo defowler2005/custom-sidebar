@@ -65,7 +65,7 @@
                                                 {
                                                     "the_actualTextTitle": {
                                                         "type": "label",
-                                                        "text": "hud.sidebar.title",
+                                                        "text": "Your Server",
                                                         "anchor_from": "center",
                                                         "anchor_to": "center",
                                                         "layer": 32,
