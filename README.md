@@ -5,7 +5,7 @@ Go to line 48 for the title image.
 
 Here's what it looks like:
 
-![Custom Sidebar]()
+![Custom Sidebar](https://defowler.tech/custom_sidebar-info.png)
 
 ## Usage
 
