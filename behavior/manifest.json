@@ -12,7 +12,7 @@
         "min_engine_version": [
             1,
             20,
-            41
+            60
         ]
     },
     "modules": [
@@ -31,7 +31,7 @@
     "dependencies": [
         {
             "module_name": "@minecraft/server",
-            "version": "1.7.0-beta"
+            "version": "1.9.0-beta"
         }
     ]
 }
