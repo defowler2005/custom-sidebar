@@ -6,7 +6,7 @@ system.runInterval(() => {
       {
         "rawtext": [
           {
-            "text": "§aName: §edefowler2OO5\n§aHealth: §e20\n§aArmor: §e10\n§aLevel: §e5"
+            "text": `§aName: §e${player.nameTag}\n§aHealth: §e20\n§aArmor: §e10\n§aLevel: §e5`
           }
         ]
       },
