@@ -1,7 +1,7 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Custom server sidebar",
+        "description": "Custom server sidebar using the title",
         "name": "Custom server sidebar",
         "uuid": "8ac7b3f5-2658-4070-9445-cd72c9e22122",
         "version": [

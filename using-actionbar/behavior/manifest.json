@@ -1,0 +1,47 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Custom server sidebar",
+        "name": "Custom server sidebar using the actionbar",
+        "uuid": "35605b4e-74dd-4fc0-bdd0-3cd119ed2c72",
+        "version": [
+            0,
+            0,
+            1
+        ],
+        "min_engine_version": [
+            1,
+            20,
+            81
+        ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "e1fd5df7-686a-4718-9d3c-67b59cefedda",
+            "entry": "scripts/library/Minecraft.js",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.11.0-beta"
+        },
+        {
+            "description": "Custom server sidebar using the actionbar",
+            "type": "resources",
+            "uuid": "141b0abf-4887-4212-b027-93ef7478c721",
+            "version": [
+                0,
+                0,
+                1
+            ]
+        }
+    ]
+}

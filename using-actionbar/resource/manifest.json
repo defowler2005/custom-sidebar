@@ -1,9 +1,9 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Custom server sidebar",
+        "description": "Custom server sidebar using the actionbar",
         "name": "Custom server sidebar",
-        "uuid": "f556062d-2a04-4362-9ba2-d4719dc8048c",
+        "uuid": "141b0abf-4887-4212-b027-93ef7478c721",
         "version": [
             0,
             0,
@@ -17,9 +17,9 @@
     },
     "modules": [
         {
-            "description": "Custom server sidebar",
+            "description": "Custom server sidebar using the actionbar",
             "type": "resources",
-            "uuid": "c0209616-eba7-493d-9248-cb067a6621a0",
+            "uuid": "35605b4e-74dd-4fc0-bdd0-3cd119ed2c72",
             "version": [
                 0,
                 0,

@@ -1,0 +1,99 @@
+{
+    "namespace": "hud",
+    "the_titleImagePart": {
+        "type": "image",
+        "size": [
+            64,
+            64
+        ],
+        "anchor_from": "right_middle",
+        "anchor_to": "right_middle",
+        "offset": [
+            -21,
+            -86
+        ],
+        "texture": "pack_icon"
+    },
+    "hud_actionbar_text": {
+        "type": "image",
+        "size": [
+            "100%c + 12px",
+            "100%c + 5px"
+        ],
+        "anchor_from": "top_right",
+        "anchor_to": "top_right",
+        "offset": [
+            -2,
+            "50%-30px"
+        ],
+        "texture": "textures/ui/hud_tip_text_background",
+        "alpha": "@hud.anim_actionbar_text_background_alpha_out",
+        "controls": [
+            {
+                "actionbar_message": {
+                    "type": "label",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "color": "$tool_tip_text",
+                    "layer": 31,
+                    "text": "$actionbar_text",
+                    "localize": false,
+                    "alpha": "@hud.anim_actionbar_text_alpha_out"
+                }
+            }
+        ]
+    },
+    "theTitleBg": {
+        "type": "image",
+        "size": [
+            108,
+            11
+        ],
+        "anchor_from": "right_middle",
+        "anchor_to": "right_middle",
+        "offset": [
+            -3,
+            -37
+        ],
+        "alpha": 0.5,
+        "texture": "textures/ui/hud_tip_text_background",
+        "controls": [
+            {
+                "titleText": {
+                    "type": "label",
+                    "text": "§cYour §aServer",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "size": [
+                        "100%",
+                        10
+                    ],
+                    "offset": [
+                        20,
+                        0
+                    ]
+                }
+            }
+        ]
+    },
+    "root_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_front",
+                "value": [
+                    {
+                        "the_titleImagePart@hud.the_titleImagePart": {
+                            "layer": 31
+                        }
+                    },
+                    {
+                        "the_TitleBg@hud.theTitleBg": {
+                            "layer": 32
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,11 +1,10 @@
-# custom-sidebar
-Here is a custom sever sidebar.
+# Custom Sidebar
 
-Go to line 48 for the title image.
+Here is a custom server sidebar.
 
-Here's what it looks like:
+The using-actionbar folder is the UI using the "/title @a actionbar" command.
 
-![Custom Sidebar](https://defowler.tech/custom_sidebar-info.png)
+The /using-title means the UI is using the "/title @a title" command.
 
 ## Usage
 
